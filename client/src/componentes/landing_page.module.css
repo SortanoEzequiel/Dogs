@@ -1,0 +1,46 @@
+.landing{
+    margin: 0%;
+    background-image: url(../imagen/landing.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width:100vw;
+}
+
+.div{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 250px 500px;
+}
+.h1{
+    color: #dcc2e4;
+    margin: 50px 10px;
+    background-color: #350642;
+    padding: 6px 9px 8px;
+    
+}
+.link{
+    list-style-type: none;
+    color: transparent;
+
+}
+.button{
+    font-size: 30px;
+    padding: 10px 20px;
+    width: 6em;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    position:relative;
+    margin: 40px 50px;
+    transition: .5s;
+}
+.button:hover{
+    color:black;
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+}
